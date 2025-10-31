@@ -7,7 +7,7 @@ name = "Forgejo Runner"
 description.en = "Runner for Forgejo"
 description.fr = "Runner pour Forgejo"
 
-version = "8.0.1~ynh1"
+version = "11.1.1~ynh1"
 
 maintainers = ["eric_G", "asandikci"]
 
@@ -17,7 +17,7 @@ admindoc = "https://forgejo.org/docs/next/admin/actions/#forgejo-runner"
 code = "https://code.forgejo.org/forgejo/runner"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = false
@@ -53,10 +53,10 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        amd64.url = "https://code.forgejo.org/forgejo/runner/releases/download/v8.0.1/forgejo-runner-8.0.1-linux-amd64"
-        amd64.sha256 = "fc5473e11baa8f5ace72cd4369d84d8af2ce48fa9adca94c362a8288ecc46b93"
-        arm64.url = "https://code.forgejo.org/forgejo/runner/releases/download/v8.0.1/forgejo-runner-8.0.1-linux-arm64"
-        arm64.sha256 = "2699653bb65ea6dd61d8c61c43ee811d4774199e56da08cea244b6b37e834d47"
+        amd64.url = "https://code.forgejo.org/forgejo/runner/releases/download/v11.1.1/forgejo-runner-11.1.1-linux-amd64"
+        amd64.sha256 = "35d15b3dd1b05aa83a9ed5402bfaae1e1e91adc75252df4b338bba221330989a"
+        arm64.url = "https://code.forgejo.org/forgejo/runner/releases/download/v11.1.1/forgejo-runner-11.1.1-linux-arm64"
+        arm64.sha256 = "20e74f455becdc20e58f065e27b7b24b14a607702e8d2e187176a5e40a73276e"
         in_subdir = false
         extract = false
         rename = "forgejo-runner"

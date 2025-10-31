@@ -168,6 +168,8 @@ container:
   # valid_volumes:
   #   - data
   #   - /etc/ssl/certs
+  # Enable cache server to use actions/cache.
+  #   - /src/*.json
   # If you want to allow any volume, please use the following configuration:
   # valid_volumes:
   #   - '**'
